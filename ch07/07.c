@@ -1,12 +1,12 @@
 //#7
 //编写一个程序，提示用户输入一周工作的总时数，然后打印工资总额，税金数及净收入。
-//a. 基本工资 = 1000美元/小时
+//a. 基本工资 = 10美元/小时
 //b. 加班(超过40hrs) = 1.5倍的时间
 //c. 税率:   前300美元， 15%
 //          续150美元为 20%
 //          余下为      25%
 #include <stdio.h>
-#define BASE_PAY_PERHOUR	 1000
+#define BASE_PAY_PERHOUR	 10
 #define OT_PAY_PERHOUR		 BASE_PAY_PERHOUR*1.5
 #define TAX_LEVEL1 300
 #define TAX_LEVEL2 450
