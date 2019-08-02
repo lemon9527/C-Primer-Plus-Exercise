@@ -32,7 +32,7 @@ void print_person_b(struct person people);   //按值传递结构给函数
 
 int main(void)
 {
-    struct person people[5] = {//声明guy结构模板类型的数组, 内含5个元素
+    struct person people[5] = {//声明person结构模板类型的数组, 内含5个元素
         {12345671, {"Marvin", "The", "Martian"}},
         {12345672, {"Scrooge", "Mc", "Duck"}},
         {12345673, {"Mantis", "Froggy", "Tobogan"}},
